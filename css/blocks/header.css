@@ -24,6 +24,7 @@ header .header__nav a {
    position: fixed;
    left: 0;
    top: 0;
+   background-color:#161415;
 }
 .opaque { background-color: #333; }
 
