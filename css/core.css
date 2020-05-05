@@ -4,7 +4,6 @@
 a {
     text-decoration: none;
     display: inline-block;
-    transition: all .3s ease-in-out;
 }
 ul, li {
     list-style: none;
