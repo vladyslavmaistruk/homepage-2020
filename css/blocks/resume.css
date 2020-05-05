@@ -1,0 +1,113 @@
+#resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+.resume__experiance,
+.resume_personal,
+.resume__career,
+.resume__education {
+    width: 96%;
+    max-width: 1020px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E8E8E8;
+}
+.resume__education {
+    border-bottom: none;
+}
+
+.resume_personal,
+.resume__career,
+.resume__education {
+    margin-top: 50px;
+}
+
+.resume__experiance-title,
+.resume__personal-title,
+.resume__career-title,
+.resume__education-title {
+    margin-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font: 18px/24px 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+.resume__experiance-title span,
+.resume__personal-title span, 
+.resume__career-title span,
+.resume__education-title span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 4px;
+}
+.resume__experiance-content,
+.resume__personal-content,
+.resume__career-content,
+.resume__education-content {
+    min-width: 650px;
+    width: 650px;
+}
+.resume__experiance-content h3,
+.resume__personal-content h3,
+.resume__career-content h3,
+.resume__education-content h3  {
+    margin: 0;
+    font: 20px/25px 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+.resume__experiance-content p,
+.resume__personal-content p ,
+.resume__career-content p,
+.resume__education-content p {
+    margin: 10px 0 20px 0;
+}
+.resume__experiance-content p:last-child,
+.resume__personal-content p:last-child,
+.resume__career-content p:last-child,
+.resume__education-content p:last-child  {
+    margin: 10px 0 40px 0;
+}
+.experiance-hidden,
+.personal-hidden,
+.career-hidden,
+.education-hidden {
+    display: none;
+}
+.experiance-toggle,
+.personal-toggle,
+.career-toggle,
+.education-toggle {
+    font: 16px/30px 'opensans-bold', sans-serif;
+    background: #11ABB0;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #fff;
+    padding: 0px 10px;
+    width: 120px;
+    margin-bottom: 18px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    border: 3px solid #11ABB0;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+    float: right;
+}
+.experiance-toggle:hover,
+.personal-toggle:hover,
+.career-toggle:hover,
+.education-toggle:hover {
+    background: #FFFFFF;
+    color: #0D0D0D;
+    border: 3px solid #11ABB0;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+}
+
+
