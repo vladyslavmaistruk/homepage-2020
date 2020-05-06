@@ -1,0 +1,45 @@
+#about {
+    background: #2B2B2B;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.about__inner {
+    width: 96%;
+    max-width: 1020px;
+    display: flex;
+    justify-content: space-between;
+}
+.about__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #fff;
+    margin-left: 10px;
+}
+.about__photo img {
+    width: 200px;
+    height: 200px;
+}
+.about__info {
+    max-width: 650px;
+}
+.about__info-title,
+.about__contacts-title {
+    font: 22px/30px 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.about__info-text,
+.about__contacts-text {
+    line-height: 30px;
+    color: #7A7A7A;
+    margin-bottom: 30px;
+}
+.about__contacts-text {
+    max-width: 300px;
+}

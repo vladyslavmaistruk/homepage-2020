@@ -1,0 +1,120 @@
+@media all and (max-width: 980px) {
+    #about {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .about__inner {
+        display: block;
+    }
+    .about__photo {
+        margin: 0 auto;
+    }
+    .about__info {
+        max-width: 100%;
+    }
+    .resume__experiance,
+    .resume_personal,
+    .resume__career,
+    .resume__education {
+        display: block;
+        text-align: center;
+    }
+    .resume__experiance-title,
+    .resume__personal-title,
+    .resume__career-title,
+    .resume__education-title {
+    margin-left: 0px;
+    margin-bottom: 25px;
+}
+    .resume__experiance-content,
+    .resume__personal-content,
+    .resume__career-content,
+    .resume__education-content {
+        min-width: 100%;
+        width: 100%;
+    }
+    .experiance-toggle,
+    .personal-toggle,
+    .career-toggle,
+    .education-toggle {
+        float: none;
+    }
+    .slider__outer {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        display: block;
+    }
+    .slider__qoutes {
+        display: none;
+    }
+    .slider__inner {
+        max-width: 100%;
+        width: 100%;
+        font-size: 18px;
+        line-height: 36px;
+        color: #fff;
+        font-weight: 800;
+    }
+}
+@media all and (max-width: 780px) {
+    .header__banner-title {
+        font-size: 70px;
+    }
+}
+@media all and (max-width: 550px) {
+    .header__banner-title {
+        font-size: 45px;
+    }
+    .header__bunner-text {
+        width: 100%;
+    }
+    .header__btn-menu {
+        display: block;
+    }
+    .nav {
+        display: none;
+        min-height: 48px;
+        width: auto;
+     
+        /* center align the menu */
+        text-align: center;
+    }
+
+    .nav li {
+        position: relative;
+        height: 48px;
+        display: block;
+        text-align: center;
+     }
+     
+     /* Links */
+     .nav li a {
+     
+        display: block;
+        padding: 8px 13px;
+        line-height: 32px;
+        text-decoration: none;
+        color: #fff;
+     
+         -webkit-transition: color .2s ease-in-out;
+         -moz-transition: color .2s ease-in-out;
+         -o-transition: color .2s ease-in-out;
+         -ms-transition: color .2s ease-in-out;
+         transition: color .2s ease-in-out;
+     }
+}
+
+@media all and (max-width: 480px) {
+    .header__bunner-social li {
+        margin: 0 14px;
+    }
+    .footer__social li {
+        margin: 0 14px; 
+      }
+}
+
+@media all and (max-width: 400px) {
+    .header__banner-title {
+        font-size: 35px;
+    }
+}
