@@ -10,7 +10,7 @@ header {
 }
 
 header .header__nav a {
-    display: none;
+   display: none;
 }
 
 #nav-wrap {
@@ -28,15 +28,16 @@ header .header__nav a {
 }
 .opaque { background-color: #333; }
 
-
-ul#nav {
+/*  ul#nav */
+.nav {
    min-height: 48px;
    width: auto;
+   display: block;
 
    /* center align the menu */
    text-align: center;
 }
-ul#nav li {
+.nav li {
    position: relative;
    list-style: none;
    height: 48px;
@@ -44,7 +45,7 @@ ul#nav li {
 }
 
 /* Links */
-ul#nav li a {
+.nav li a {
 
    display: inline-block;
    padding: 8px 13px;
@@ -58,6 +59,10 @@ ul#nav li a {
     -o-transition: color .2s ease-in-out;
     -ms-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
+}
+.header__btn-menu{
+   display: none;
+   font-size: 28px;
 }
 .header__banner{
    display: inline-block;

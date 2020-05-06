@@ -45,4 +45,8 @@ $(document).ready(function(){
         adaptiveHeight: true,
         arrows: false
       });
+
+      $('.header__btn-menu').click(function() {
+        $('.nav').slideToggle('slow');
+      })
 });
